@@ -25,10 +25,23 @@
       <p>
           <%= message%>
       </p>
-    </main>
+      <hr>
+      <% if(team) {%>
+          <h2>teamleden:</h2>
+          <ul class="dinos">
+              <% team.forEach(dino => {%>
+                  <li class="red">
+                      <%= dino %>
+                  </li>
+                  <% });%>
+          </ul>
+      <% } %>
 
+    </main>
+    
     <footer>
         <p>&copy; DinoCorp</p>
     </footer>
+
 </body>
 </html>

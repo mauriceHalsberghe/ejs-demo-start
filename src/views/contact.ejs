@@ -19,16 +19,20 @@
     </nav>
 
     <main>
-        <h1>
-          <%= title%>
-      </h1>
-      <p>
-          <%= message%>
-      </p>
+        <h1><%= title%></h1>
+        
+        <marquee>Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us -------- Contact Us</marquee>
+        
+        <p><%= message%></p>
+        
+        <h2><%= person.firstname + " " + person.lastname%></h2>
+        <h3><%= `Location: ${person.location.city}, ${person.location.country}` %></h3>
     </main>
 
     <footer>
         <p>&copy; DinoCorp</p>
     </footer>
+
+
 </body>
 </html>

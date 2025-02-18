@@ -87,7 +87,7 @@ export const navItems = [
     label: "Home",
   },
   {
-    url: "/dinosaurs",
+    url: "/about",
     label: "Dinosaurs",
   },
   {
